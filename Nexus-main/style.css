@@ -1,0 +1,88 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(6, 6, 89);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(6, 6, 89);
+    padding-top: 15px;
+}
+
+/* to design logo and company name at the header section */
+header >a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header a img{
+    width: 15%;
+    border-radius: 50%;
+}
+header nav a{
+    margin: 0 20px;
+}
+header :nth-last-child(2) a{
+    padding: 5px;
+}
+
+.get-started{
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.get-started a{
+    color: black;
+}
+
+/* main section containing everything */
+
+.intro{
+    background-image: url(/images/nice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.welcome{
+    width: 50%;
+    color: white;
+    padding: 5% 8%; 
+}
+.welcome h3{
+    color: rgb(0, 187, 255);
+    font-size: 15px;
+}
+.welcome h1{
+    font-size: 30px;
+    /* font-style: oblique; */
+}
+
+
+
+
+/* second section about */
+.about{
+    height: 90vh;
+}
+
+/* third section services section */
+.services{
+    height: 90vh;
+    background-image: url(/images/danger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
