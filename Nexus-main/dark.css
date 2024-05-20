@@ -8,8 +8,8 @@
 /* Body styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  background-image: url("./images/did\ i\ do\ that.jpg");
+  background-color: #100f0f;
+  background-image: url("./images/hold\ on.jpg");
 }
 
 /* Header styles */
@@ -23,12 +23,16 @@ header {
 }
 
 header a {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
 header nav a {
   margin-right: 20px;
+}
+
+header nav a:hover {
+  background-color: #007bff;
 }
 
 header img {
@@ -53,6 +57,7 @@ header img {
 .intro {
   padding: 100px 20px;
   text-align: center;
+  color: #f0f0f0;
 }
 
 .intro h1 {
@@ -62,7 +67,6 @@ header img {
 
 /* About section styles */
 .about {
-  background-color: #fff;
   padding: 100px 20px;
 }
 
@@ -70,4 +74,95 @@ header img {
 .services {
   background-color: #f0f0f0;
   padding: 100px 20px;
+  background-image: url("./images/what\ the\ hell.jpg");
+}
+.box-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box-list:hover {
+  background-color: #100f0f;
+}
+
+.box-list li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: calc(50% - 10px); /* Two columns with 10px gutter */
+  display: inline-block;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Text color for better visibility */
+}
+
+.services {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.services .box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.services .box:hover {
+  background-color: #eaeaea;
+}
+
+.services h1,
+.services h2,
+.services h3,
+.services h4 {
+  margin-top: 0;
+}
+
+.services p {
+  margin-bottom: 0;
+}
+
+.contacts {
+  padding: 20px;
+  background-color: white;
+  background-image: url("./images/did\ i\ do\ that.jpg");
+}
+
+.contacts div {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contacts h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contacts p {
+  font-size: 16px;
+  color: whitesmoke;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.contacts p a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.contacts p a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: white;
 }
